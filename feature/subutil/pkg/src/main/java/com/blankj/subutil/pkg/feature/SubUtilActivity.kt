@@ -8,6 +8,7 @@ import com.blankj.common.item.CommonItemClick
 import com.blankj.subutil.pkg.R
 import com.blankj.subutil.pkg.feature.appStore.AppStoreActivity
 import com.blankj.subutil.pkg.feature.battery.BatteryActivity
+import com.blankj.subutil.pkg.feature.camera.CameraActivity
 import com.blankj.subutil.pkg.feature.country.CountryActivity
 import com.blankj.subutil.pkg.feature.dangerous.DangerousActivity
 import com.blankj.subutil.pkg.feature.location.LocationActivity
@@ -46,6 +47,9 @@ class SubUtilActivity : CommonActivity() {
                 },
                 CommonItemClick(R.string.demo_country, true) {
                     CountryActivity.start(this)
+                },
+                CommonItemClick(R.string.demo_camera, true){
+                    CameraActivity.start(this)
                 },
                 CommonItemClick(R.string.demo_dangerous, true) {
                     DangerousActivity.start(this)

@@ -3,6 +3,7 @@
     <string name="demo_app_store">App Store Demo</string>
     <string name="demo_battery">Battery Demo</string>
     <string name="demo_country">Country Demo</string>
+    <string name="demo_camera">Camera Demo</string>
     <string name="demo_dangerous">Dangerous Demo</string>
     <string name="demo_location">LocationUtils Demo</string>
     <string name="demo_pinyin">PinyinUtils Demo</string>
